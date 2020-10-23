@@ -1,0 +1,23 @@
+fixes:
+  - "src/::"
+coverage:
+  status:
+    project:
+      default:
+        flags:
+          - cpp_package
+          - python_package
+      cpp_package:
+        flags:
+          - cpp_package
+      python_package:
+        flags:
+          - python_package
+flags:
+  cpp_package:
+    paths:
+      - cpp_package
+  python_package:
+    paths:
+      - python_package
+
